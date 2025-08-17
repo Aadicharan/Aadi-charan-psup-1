@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+int main(){
+int n;
+cout<<"Enter your age:";
+cin>>n;
+if(n>=18){
+cout<<"Eligible"<<endl;
+}
+else{
+cout<<"Not Eligible"<<endl;
+}
+return 0;
+}

@@ -1,0 +1,10 @@
+print("Choose a drink:")
+print("1. Tea")
+print("2. Coffee")
+print("3. Juice")
+choice = int(input("Enter your choice (1-3): "))
+match choice:
+    case 1: print("You selected Tea.")
+    case 2: print("You selected Coffee.")
+    case 3: print("You selected Juice.")
+    case _: print("Invalid choice.")

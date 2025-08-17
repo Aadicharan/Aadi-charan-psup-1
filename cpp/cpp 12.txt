@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+int main(){
+int n;
+cout<<"Enter a number:";
+cin>>n;
+if(n<=50){
+cout<<"Fail"<<endl;
+}
+else if (n>50 && n<=74){
+cout<<"C"<<endl;
+}
+else if(n>74 && n<=89){
+cout<<"B"<<endl;
+}
+else if(n>89 && n<=100){
+cout<<"A"<<endl;
+}
+else{
+cout<<"Invalid"<<endl;
+}
+return 0;
+}

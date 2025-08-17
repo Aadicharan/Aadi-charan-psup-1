@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+int main(){
+int a;
+cout<<"Enter type of fuel (1 to 3):";
+cin>>a;
+switch (a) {
+            case 1:
+                cout<<"Petrol"<<endl;
+                break;
+            case 2:
+                cout<<"Diesel"<<endl;
+                break;
+            case 3:
+               cout<<"Electric"<<endl;
+                break;
+            default:
+               cout<<"Invalid"<<endl;
+}

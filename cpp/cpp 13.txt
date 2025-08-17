@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+int main(){
+int n;
+int m;
+int p;
+cout<<"Enter your three numbers:";
+cin>>n;
+cin>>m;
+cin>>p;
+if(n>m && n>p){
+cout<<n<<" is greater"<<endl;
+}
+else if(m>p){
+cout<<m<<" is greater"<<endl;
+}
+else{
+cout<<p<<"is greater"<<endl;
+}
+return 0;
+}

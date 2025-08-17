@@ -1,0 +1,37 @@
+import java.util.*;
+
+public class Seventeen {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Select an operation ");
+        char ch= sc.next().charAt(0);
+        System.out.println("enter two numbers:");
+        int a=sc.nextInt();
+        int b=sc.nextInt();
+
+        switch (ch) {
+            case '+':
+                System.out.println("a+b:"+(a+b));
+                break;
+            case '-':
+                System.out.println("a-b:"+(a-b));
+                break;
+            case '*':
+                System.out.println("a*b:"+a*b);
+                break;
+            case '/':
+                   if( b!=0){
+                System.out.println("a/b:"+a/b);
+                  }
+                   else{
+                  System.out.println("invalid operation");
+                break;
+                    }
+
+            default:
+                System.out.println("invalid operation");
+    }
+
+}
+}

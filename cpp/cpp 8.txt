@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+int main(){
+int n;
+int m;
+cout<<"Enter your two numbers:";
+cin>>n;
+cin>>m;
+if(n>m){
+cout<<n<<" is greater"<<endl;
+}
+else{
+cout<<m<<" is greater"<<endl;
+}
+return 0;
+}
